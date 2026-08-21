@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Loop Emoji Copy Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+    .wrap {
+      max-width: 1000px;
+      margin: auto;
+      padding: 28px 18px 40px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 34px;
+    }
+    .sub {
+      text-align: center;
+      color: #555;
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      border: 2px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 18px;
+      text-align: center;
+      background: #fafafa;
+    }
+    .emoji {
+      font-size: 54px;
+      margin-bottom: 8px;
+    }
+    .name {
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    button {
+      border: none;
+      background: #111827;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    button:hover {
+      opacity: 0.88;
+    }
+    .msg {
+      text-align: center;
+      margin-top: 22px;
+      font-weight: 700;
+      min-height: 24px;
+    }
+    .tip {
+      margin-top: 30px;
+      border-top: 1px solid #ddd;
+      padding-top: 18px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Python Loop Game Emojis</h1>
+    <div class="sub">Click any button to copy the emoji and paste it into Google Colab.</div>
+
+    <div class="grid">
+      <div class="card"><div class="emoji">🚗</div><div class="name">Car</div><button data-emoji="🚗">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🏎️</div><div class="name">Racing Car</div><button data-emoji="🏎️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🚙</div><div class="name">SUV</div><button data-emoji="🚙">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🏁</div><div class="name">Finish Flag</div><button data-emoji="🏁">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🚀</div><div class="name">Rocket</div><button data-emoji="🚀">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🔋</div><div class="name">Battery</div><button data-emoji="🔋">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">💣</div><div class="name">Bomb</div><button data-emoji="💣">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">💥</div><div class="name">Boom</div><button data-emoji="💥">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🧟</div><div class="name">Zombie</div><button data-emoji="🧟">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">💀</div><div class="name">Dead</div><button data-emoji="💀">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">❤️</div><div class="name">Health</div><button data-emoji="❤️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🏃</div><div class="name">Runner</div><button data-emoji="🏃">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🐍</div><div class="name">Snake</div><button data-emoji="🐍">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🎯</div><div class="name">Target</div><button data-emoji="🎯">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🏆</div><div class="name">Winner</div><button data-emoji="🏆">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🎉</div><div class="name">Success</div><button data-emoji="🎉">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🔴</div><div class="name">Stop Signal</div><button data-emoji="🔴">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🟡</div><div class="name">Ready Signal</div><button data-emoji="🟡">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">🟢</div><div class="name">Go Signal</div><button data-emoji="🟢">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">⬆️</div><div class="name">Up</div><button data-emoji="⬆️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">⬇️</div><div class="name">Down</div><button data-emoji="⬇️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">⬅️</div><div class="name">Left</div><button data-emoji="⬅️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">➡️</div><div class="name">Right</div><button data-emoji="➡️">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">✅</div><div class="name">Correct</div><button data-emoji="✅">Copy Emoji</button></div>
+      <div class="card"><div class="emoji">❌</div><div class="name">Wrong</div><button data-emoji="❌">Copy Emoji</button></div>
+    </div>
+
+    <div id="msg" class="msg"></div>
+
+    <div class="tip">
+      <b>How to use in Python:</b><br />
+      Copy any emoji and paste it inside quotes, for example:<br />
+      <code>car = "🚗"</code><br />
+      <code>print("-" * 10 + car)</code>
+    </div>
+  </div>
+
+  <script>
+    const msg = document.getElementById('msg');
+
+    document.querySelectorAll('button[data-emoji]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const emoji = button.dataset.emoji;
+        try {
+          await navigator.clipboard.writeText(emoji);
+          msg.textContent = `Copied: ${emoji}`;
+        } catch (e) {
+          const temp = document.createElement('textarea');
+          temp.value = emoji;
+          document.body.appendChild(temp);
+          temp.select();
+          document.execCommand('copy');
+          temp.remove();
+          msg.textContent = `Copied: ${emoji}`;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
